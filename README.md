@@ -1,10 +1,10 @@
 Introduction to PyCharmers
 ============
 
-Welcome to PyCharmers! PyCharmers is SLAC's premier intro to Python course. We'll be building this course throughout the semester with your help!
+Welcome to PyCharmers! PyCharmers is SLAC's premier Intro to Python course. We'll be building this course throughout the semester with your help!
 
 ##Getting setup to use Python
-While we prefer you to have a Linux or Unix operating system on your computer, we'll still help if you want to use Windows.
+While we prefer you to have a Linux or Unix operating system on your computer, we'll still help if you want to use Windows for the first few lessons. After that, you will need Linux.
 
 ### Installing on Linux
 Open a terminal and type
