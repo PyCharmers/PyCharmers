@@ -42,24 +42,34 @@ Those three arrows pointing to the right tell us we are in the Python interprete
 So let's get started.
 
 ## Adding Useful Programs to Ubuntu
-
-```bash
+* Update repositories and current packages:
+```
 sudo apt-get update &&
-sudo apt-get upgrade &&
-#sublime-text-3
+sudo apt-get upgrade
+```
+* Sublime Text 3
+```
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 &&
 sudo apt-get update &&
-sudo apt-get install sublime-text-installer &&
-#chrome
+sudo apt-get install sublime-text-installer
+```
+* Google Chrome 
+```
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - &&
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list' &&
 sudo apt-get update &&
-sudo apt-get install google-chrome-stable &&
-#python (?)
-sudo apt-get install python &&
-#pip
-sudo apt-get install python-pip &&
-#git
+sudo apt-get install google-chrome-stable
+```
+* Python (add 3 at end for Python3.4) 
+```
+sudo apt-get install python
+```
+* Pip (add 3 at end for Pip3)
+```
+sudo apt-get install python-pip
+``` 
+* git
+```
 sudo apt-get install git
 ```
 
