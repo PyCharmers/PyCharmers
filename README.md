@@ -4,7 +4,7 @@ Use the links below to help navigate our lessons:
 
 ##Lessons:
 
-* [Lesson 1](./lesson1/lesson1.md)
+* [Lesson 1](./lesson1/README.md)
 
 
 ##Resources:
