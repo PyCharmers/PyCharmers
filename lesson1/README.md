@@ -1,6 +1,6 @@
 # PyCharmers Lesson 1
 
-Python is a general-purpose high-level programming language. Throughout this intro, we'll draw a few parallels with MATLAB.
+Welcome to week one of PyCharmers. To start, we'll be going over an introduction to Python, a general-purpose, high-level programming language. For those of you familiar with MATLAB, we'll try to draw parallels between the two languages throughout our introduction.
 
 ## Getting Started
 
@@ -325,7 +325,7 @@ We can use dictionaries to map between names and ages, and index and modify them
 
 ## Example: Markov Chains
 
-We used the above concepts to build the example, `markov.py`. It constructs a dictionary from a text file (the example uses William Shakespeare's Hamlet), and uses a [Markov chain](http://en.wikipedia.org/wiki/Markov_chain) to build new "sentences" in the style of the source text. We get results like this:
+We used the above concepts to build the example, [markov.py](./markov/markov.py). It constructs a dictionary from a text file (the example uses William Shakespeare's Hamlet), and uses a [Markov chain](http://en.wikipedia.org/wiki/Markov_chain) to build new "sentences" in the style of the source text. We get results like this:
 
     A dull and muddy mettled rascal, peak, Like John a dreams, unpregnant of my father Queen.
 
