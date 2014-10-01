@@ -92,7 +92,7 @@ The Python expressions `True` and `False` represent results of boolean expressio
     >>> x < y
     True
 
-Note the difference between `=` and `==`! A single `=` is an assignment operator. So writing a comparison with one will (hopefully) cause the interpreter to fail:
+Note the difference between `=` and `==`. A single `=` is an assignment operator. So writing a comparison with one will (hopefully) cause the interpreter to fail:
 
     >>> 4 = 4
       File "<stdin>", line 1
