@@ -5,10 +5,49 @@ Welcome to week 2 of PyCharmers! Hopefully by now you should have Ubuntu install
 Go ahead and open up your "Terminal" application, bonus points if you can figure out the hotkey to open it from anywhere.
 
 ##Functions
+In the past, we've used functions like `print()` and `range()`, but today, we're going to write our own.
 
+If you're unfamiliar, a function can be used to define a block of code that can be called over and over. This helps cut back on the amount of code you need to write if you have a certain task you want to carry out multiple times.
+
+Let's start out with a simple function that just prints some text, and try calling it.
+
+```py
+>>> def myCoolFunction () :
+>>>   print("This is such a cool function!")
+>>> myCoolFunction()
+"This is such a cool function!"
+```
+
+Awesome! Did you know we can also pass variables into a function? Let's try that.
+
+```py
+>>> def functionWithParams ( parameter1, parameter2 ) :
+>>>   print(parameter1 + parameter2)
+>>> functionWithParams(3, 2)
+5
+```
+
+We can also write functions that return some data. When we do this, we can treat the function as if it were the returned data. For example
+
+```py
+>>> def multiplyByFive( i ) :
+>>>   return i * 5
+>>> x = multiplyByFive(3)
+>>> x
+15
+```
+
+Now that we've got the basics down, try creating a factorial function. After you create the function, you should be able to do something like this
+
+```py
+>>> factorial(5)
+120
+>>> factorial(10)
+3628800
+```
 
 ##Dictionaries
-Last week we talked about a few [data structures](http://en.wikipedia.org/wiki/Data_structure) in Python, namely strings, lists, and tuples. This week, we're going to learn about another one of Python's data sctuctures, the dictionary!
+Last week we talked about a few [data structures](http://en.wikipedia.org/wiki/Data_structure) in Python, namely strings, lists, and tuples. This week, we're going to learn about another one of Python's data structures, the dictionary!
 
 A dictionary in Python is a collection of labelled data. Let's try creating one.
 
