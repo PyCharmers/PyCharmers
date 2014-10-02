@@ -54,12 +54,6 @@ i = 0
 sentence = prefix[0] + ' ' + prefix[1]
 # Loop forever (until a break command)
 while True:
-	# If the current prefix word pair is not a key in the worddict
-	if prefix not in list(worddict.keys()):
-		# Add a period to the sentence
-		sentence += '.'
-		# End the loop
-		break
 	# If the second word in the pair contains a period, end the loop
 	if '.' in prefix[1]: break
 	# Set a new prefix that contains the 2nd word from the current prefix, and a
@@ -80,4 +74,8 @@ print(sentence)
  the thing, each word made true and good, The apparition comes: I knew him, Horatio; a
  fellow whipped for o'erdoing Termagant; it out herods Herod: pray you go to seek him out; 
  speak fair, and bring them in.
+
+ He is a murderer and a gentleman.
+
+ I heard, and do in part believe it.
 """
