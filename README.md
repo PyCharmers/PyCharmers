@@ -5,6 +5,7 @@ Use the links below to help navigate our lessons:
 ##Lessons:
 
 * [Lesson 1](./lesson1/README.md)
+* [Lesson 2](./lesson2/README.md)
 
 
 ##Resources:
